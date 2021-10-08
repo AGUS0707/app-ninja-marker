@@ -1,0 +1,212 @@
+.market-page{
+  background: #0F1217;
+  .navigation-bar{
+    background: #0F1217;
+    padding: 18px 0;
+    @media screen and (max-width: 576px){
+      padding-bottom: 0;
+    }
+    .container{
+      .navbar{
+        padding: 0;
+        justify-content: space-between;
+        @media screen and (max-width: 576px){
+          display: block !important;
+          width: 100%;
+        }
+        .navbar-brand{
+          width: 135px;
+          height: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0;
+          @media screen and (max-width: 576px){
+            display: block ;
+            margin-bottom: 30px;
+            margin-right: auto;
+            margin-left: auto;
+          }
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .navbar-nav{
+          @media screen and (max-width: 576px){
+            display: flex !important;
+            justify-content: space-between !important;
+            flex-direction: unset;
+          }
+          .nav-item{
+            @media screen and (max-width: 576px){
+               width: 16%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .nav-link{
+              @media screen and (max-width: 576px){
+                //display: inline !important;
+                font-size: 14px;
+                padding: 0;
+              }
+              color: #C1C3C7;
+              padding: 8px 18px;
+              background: transparent;
+              transition: all .2s;
+              border-radius: 7px;
+              &:hover{
+                background: #22242D;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .market-content{
+    position: relative;
+    opacity: 1;
+    border-radius: 16px;
+    width: 38%;
+    margin: 30px auto 0 auto;
+    background: linear-gradient(0deg, #22242D, #22242D), #22242D;
+    padding: 23px 0;
+    transition: all .2s;
+    @media screen and (max-width: 576px){
+      width: 90%;
+      margin-top: 20px;
+      margin-bottom: 24px;
+    }
+    .show{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      visibility: hidden;
+      z-index: 10;
+      background: linear-gradient(0deg, #22242D, #22242D), #22242D;
+      opacity: 1;
+    }
+    h2{
+      color: #fff;
+      font-size: 29px;
+      letter-spacing: 1px;
+      margin-bottom: 23px;
+      @media screen and (max-width: 576px){
+      font-size: 28px;
+      }
+    }
+    p{
+      color: #fff;
+      letter-spacing: 1.2px;
+      font-size: 15px;
+      font-weight: 300;
+    }
+    button{
+      border: none;
+      position: relative;
+      color:#F6FBFF;
+      padding: 5px 30px;
+      border-radius: 4px;
+      background: #E22525;
+      box-shadow: 0 15px 25px rgba(226, 37, 37, 0.25);
+      text-transform: uppercase;
+      font-size: 15px;
+      display: block;
+      margin: 0 auto;
+      z-index: 20;
+      @media screen and (max-width: 576px){
+        width: 230px;
+      }
+      .select{
+        display: none;
+        background: #0F1217;
+        width: 100%;
+        position: absolute;
+        bottom: 200%;
+        left: 0;
+        opacity: 0;
+        border-radius: 6px;
+        padding: 9px 4px;
+        z-index: 20;
+        transition: all .3s;
+        p{
+          color: #fff;
+          font-size: 14.4px;
+          font-weight: 500;
+          text-transform: none;
+        }
+        ul{
+          li{
+            background: transparent;
+            transition: background-color .3s;
+            padding: 7px 12px;
+            border-radius: 7px;
+            .icon{
+              width: 19px;
+              height: 19px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-right: 6px;
+              img{
+                width: 100%;
+                height: 100%;
+              }
+            }
+            &:hover{
+              background: #181B22;
+            }
+          }
+        }
+      }
+    }
+    .market-img{
+      margin-bottom: 12px;
+      .market-img-content{
+        width: 240px;
+        height: 300px;
+        @media screen and (max-width: 576px){
+          width: 230px;
+          height: 290px;
+        }
+        img{
+          width: 100% ;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .ninja-marker{
+    padding-bottom: 15px;
+    .container{
+      p{
+        color:#C1C3C7;
+        @media screen and (max-width: 576px){
+         text-align: center;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .market-content.checked{
+    .show{
+      opacity: 0.6;
+      visibility: visible;
+      border-radius: 15px;
+    }
+    button{
+      background: #0F1217;
+      color: #C1C3C7;
+      box-shadow: none;
+      .select{
+        opacity: 1;
+        display: block;
+        bottom: 126%;
+      }
+    }
+  }
+}

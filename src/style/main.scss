@@ -1,0 +1,632 @@
+
+.main{
+  padding-top: 20px;
+  @media screen and (max-width: 576px){
+    overflow: hidden;
+  }
+  .container{
+    .bear-market-bar{
+      .row{
+        .col-6:nth-child(1){
+          @media screen and (max-width: 576px){
+            display: block!important;
+            margin: 0 auto;
+            min-width: 90%;
+            h3{
+              font-size: 50px!important;
+            }
+          }
+          @media screen and (min-width: 576px){
+            display: none!important;
+          }
+        }
+        .col-6:nth-child(2){
+          @media screen and (max-width: 576px){
+            margin: 0 auto;
+            min-width: 90%;
+          }
+          .ninja-circle{
+            width: 100%;
+            height: 581px;
+            background: linear-gradient(0deg, #CF2424, #CF2424);
+            border-radius: 20px;
+            position: relative;
+            @media screen and (max-width: 576px){
+              height: 450px;
+            }
+            .d-flex{
+              img{
+                z-index: 1;
+                width: 408.19px;
+                height: 527px;
+                margin-top: 13%;
+                @media screen and (max-width: 576px){
+                  height: 350px;
+                  width: 280px;
+                  position: absolute;
+                  bottom: -2%;
+                  //margin-top: 29%;
+                }
+              }
+
+            }
+            img:nth-child(2){
+              position: absolute;
+              left: 13%;
+              top: 7.5%;
+              @media screen and (max-width: 576px){
+                width: 300px;
+                height: 250px;
+                left: 8%;
+                top: 8%;
+              }
+            }
+          }
+        }
+        .col-6:nth-child(3){
+          @media screen and (min-width: 576px){
+            display: block!important;
+            //margin: 0 auto;
+            //min-width: 90%;
+          }
+          @media screen and (max-width: 576px){
+            display: none!important;
+          }
+        }
+        .col-6:nth-child(3), .col-6:nth-child(1){
+          h3{
+            font-size: 55px;
+            color: #fff;
+            margin-bottom: 36px ;
+          }
+          p{
+            font-size: 17px;
+            color: #C1C3C7;
+            margin-bottom: 25px;
+            span{
+              color: rgb(234, 236, 240);
+            }
+            span:nth-child(2){
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+    .collection{
+      .row{
+        @media screen and (max-width: 576px){
+          display: block !important;
+        }
+        .col-10{
+          padding-top: 120px;
+          @media screen and (max-width: 576px){
+            margin: 0 auto;
+            min-width: 90%;
+          }
+          h1{
+            font-size: 55px;
+            color: #fff;
+            margin-bottom: 30px ;
+            text-align: center;
+            @media screen and (max-width: 576px){
+              font-size: 43px;
+            }
+          }
+          p{
+            font-size: 17px;
+            color: #C1C3C7;
+            text-align: center;
+            @media screen and (max-width: 576px){
+             text-align: left;
+              font-size: 16px;
+              padding-right: 18px;
+              br{
+                display: none;
+
+              }
+            }
+            span{
+              color: rgb(234, 236, 240);
+              font-size: 19px;
+            }
+          }
+        }
+        .col-4{
+          @media screen and (max-width: 576px){
+            margin: 0 auto;
+            min-width: 90%;
+            padding-top: 15px;
+          }
+          padding-top: 50px;
+          .ninja-circle{
+            height: 460px;
+            background: linear-gradient(0deg, #CF2424, #CF2424);
+            border-radius: 20px;
+            position: relative;
+
+            .kitay-column-top{
+              width: 95%;
+              @media screen and (max-width: 576px){
+                width: 90%;
+              }
+            }
+            .ninja-left{
+              width: 100%;
+              //margin-left: -7px!important;
+              //margin-top: -40px;
+              position: absolute;
+              bottom: 7%;
+              left: -2.2%;
+              @media screen and (max-width: 576px){
+                width: 100%;
+                bottom: 5%;
+                //margin-left: -8px!important;
+              }
+            }
+
+            .circle{
+              width: 80%;
+              position: absolute;
+              top: 18%;
+              left: 5%;
+              @media screen and (max-width: 576px){
+                width: 70%;
+                left: 5%;
+                top: 20%;
+              }
+            }
+            .building{
+              width: 50%;
+              position: absolute;
+              left: 50%;
+              bottom: 0;
+              @media screen and (max-width: 576px){
+                width: 45%;
+              }
+            }
+            .ninja-sword{
+              width: 85%;
+              position: absolute;
+              left: 10%;
+              bottom: -2%;
+              @media screen and (max-width: 576px){
+                width: 75%;
+                bottom: -2.5%;
+              }
+            }
+
+            .ninja-top{
+              width: 75%;
+              position: absolute;
+              right: 20%;
+              top: -2.4%;
+              z-index: 1!important;
+              @media screen and (max-width: 576px){
+                width: 65%;
+                right: 25%;
+              }
+
+            }
+            .kitay-column-bottom{
+              width: 95%;
+              //margin-top: 71.4%;
+              position: absolute;
+              bottom: 0;
+              @media screen and (max-width: 576px){
+                width: 95%;
+                //margin-top: 70%;
+              }
+
+            }
+
+          }
+        }
+      }
+    }
+    .gallery{
+      .row{
+        @media screen and (max-width: 576px){
+          display: block;
+        }
+        .col-10{
+          padding-top: 120px;
+          @media screen and (max-width: 576px){
+           padding-top: 60px;
+          }
+          h1{
+            font-size: 55px;
+            color: #fff;
+            margin-bottom: 30px ;
+            text-align: center;
+            @media screen and (max-width: 576px){
+             font-size: 43px;
+            }
+          }
+          p{
+            font-size: 17px;
+            color: #C1C3C7;
+            text-align: center;
+            span{
+              color: rgb(234, 236, 240);
+              font-size: 19px;
+            }
+          }
+        }
+        .col-5{
+          @media screen and (max-width: 576px){
+            margin: 0 auto;
+            min-width: 90%;
+            margin-bottom: 15px;
+          }
+        }
+        .col-2{
+          @media screen and (max-width: 576px){
+            margin: 0 auto;
+            min-width: 90%;          }
+        }
+        .formedia{
+          @media screen and (max-width: 576px){
+            display: block;
+            .ninja-moonday-p{
+              position: absolute;
+              bottom: 64%;
+              left: 40% !important;
+            }
+          }
+          @media screen and (min-width: 576px){
+            display: none;
+          }
+
+        }
+        .formedia1{
+          @media screen and (max-width: 576px){
+            display: none;
+          }
+          @media screen and (min-width: 576px){
+            display: block;
+          }
+        }
+        .col-5, .col-2{
+          height: 550px!important;
+          position: relative;
+          .ninja-moonday{
+            position: absolute;
+            right: -100%;
+            left: 0;
+            @media screen and (max-width: 576px){
+              position: relative;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              width: 100% !important;
+              border-bottom-right-radius: 26px;
+              border-top-right-radius: 26px;
+            }
+          }
+          .ninja-moon-p{
+            position: absolute;
+            bottom: 15%;
+            left: 38%;
+          }
+          .ninja-sunday-p{
+            position: absolute;
+            bottom: 53%;
+            left: 32%;
+          }
+          .ninja-moonday-p{
+            position: absolute;
+            bottom: 64%;
+            left: 77%;
+          }
+        }
+
+      }
+    }
+    .games-world>.row{
+      @media screen and (max-width: 576px){
+        display: block !important;
+        flex-direction: unset;
+      }
+    }
+    .games-world{
+      .row{
+        padding-top: 100px;
+        .col-6{
+          @media screen and (max-width: 576px){
+            display: block !important;
+            max-width: 90%;
+            margin: 0 auto;
+          }
+        }
+        .col-6:first-child{
+          h3{
+            font-size: 55px;
+            color: #fff;
+            margin-bottom: 36px ;
+            text-align: end;
+            @media screen and (max-width: 576px){
+              text-align: center;
+              font-size: 43px;
+              margin-bottom: 20px;
+            }
+          }
+          p{
+            font-size: 17px;
+            color: #C1C3C7;
+            margin-bottom: 25px;
+            text-align: end;
+            @media screen and (max-width: 576px){
+            text-align: left;
+              font-size: 15.5px;
+              br{
+                display: none;
+              }
+            }
+          }
+        }
+        .col-6:last-child{
+
+          .row{
+            padding-top: 0!important;
+            .col-6{
+              padding: 0 10px!important;
+            }
+            .ninja-circle{
+              height: 280px;
+              background: linear-gradient(0deg, #CF2424, #CF2424);
+              border-radius: 20px;
+              position: relative;
+              margin-bottom: 20px;
+              @media screen and (max-width: 576px){
+                height: 200px!important;
+              }
+
+              .ninja-top{
+                width: 60%;
+                position: absolute;
+                right: 25%;
+                top: -2.4%;
+                z-index: 1!important;
+
+              }
+              .kitay-column-bottom{
+                width: 80%;
+                //margin-top: 55%;
+                position: absolute;
+                bottom: 0;
+                @media screen and (max-width: 576px) {
+                  width: 85%;
+                }
+              }
+
+              .circle{
+                width: 70%;
+                position: absolute;
+                top: 20%;
+                left: 10%;
+              }
+              .building{
+                width: 40%;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+              }
+              .ninja-sword{
+                width: 60%;
+                position: absolute;
+                left: 15%;
+                bottom: -2%;
+              }
+
+              .kitay-column-left{
+
+                width: 60%;
+                margin-top: 5%;
+
+              }
+              .ninja-right{
+                position: absolute;
+                width: 80%;
+                top: 40%;
+                right: -2%;
+                //margin-left: ;
+
+              }
+
+              .building-half{
+                width: 53%;
+                position: absolute;
+                bottom: 0;
+                @media screen and (max-width: 576px){
+                  height: 100%;
+                }
+              }
+              .ninja-top-right{
+                position: absolute;
+                right: 0;
+                top: 0;
+                @media screen and (max-width: 576px){
+                  width: 80%;
+                }
+              }
+
+
+            }
+          }
+
+        }
+      }
+    }
+    .team-bears{
+      .row{
+        .col-10{
+          padding-top: 120px;
+          h1{
+            font-size: 55px;
+            color: #fff;
+            margin-bottom: 30px ;
+            text-align: center;
+            @media screen and (max-width: 576px){
+              font-size: 43px;
+              margin-bottom: 5px;
+            }
+          }
+        }
+        .col-md-4{
+          @media screen and (max-width: 576px){
+            max-width: 90%;
+            margin: 0 auto;
+          }
+          .ninja-circle{
+            height: 460px;
+            background: linear-gradient(0deg, #CF2424, #CF2424);
+            border-radius: 20px;
+            margin-top: 30px!important;
+            position: relative;
+
+            .kitay-column-top{
+              width: 95%;
+            }
+            .ninja-right{
+              width: 95%;
+              margin-top: -35px;
+              margin-left: 26px!important;
+            }
+
+            .circle{
+              width: 80%;
+              position: absolute;
+              top: 25%;
+              left: 15%;
+              @media screen and (max-width: 576px){
+                width: 75% !important;
+              }
+            }
+            .building{
+              width: 50%;
+              position: absolute;
+              left: 2%;
+              bottom: 0;
+              @media screen and (max-width: 576px){
+                width: 45% !important;
+              }
+            }
+            .ninja-left-sward{
+              width: 70%;
+              position: absolute;
+              left: 20%;
+              bottom: -2%;
+              @media screen and (max-width: 576px){
+                left: 5%;
+              }
+            }
+
+            .ninja-top{
+              width: 75%;
+              position: absolute;
+              right: 20%;
+              top: -2.4%;
+              z-index: 1!important;
+              @media screen and (max-width: 576px){
+                width: 65% !important;
+                right: 25%;
+              }
+
+            }
+            .kitay-column-bottom{
+              width: 95%;
+              //margin-top: 71.4%;
+              position: absolute;
+              bottom: 0;
+            }
+
+            .ninja-top2{
+              width: 75%;
+              position: absolute;
+              right: 4%;
+              top: -2.4%;
+              z-index: 1!important;
+              @media screen and (max-width: 576px){
+                width: 68%;
+                right: 7%;
+              }
+
+            }
+            .kitay-column-bottom2{
+              width: 95%;
+              //margin-top: 71.5%;
+              position: absolute;
+              bottom:0 ;
+            }
+
+            .kitay-column-top{
+              width: 95%;
+            }
+            .ninja-left{
+              width: 100%;
+              margin-left: -7px!important;
+              margin-top: -40px;
+            }
+
+            .circle{
+              width: 80%;
+              position: absolute;
+              top: 18%;
+              left: 5%;
+              @media screen and (max-width: 576px){
+                width: 75% !important;
+              }
+            }
+            .building{
+              width: 50%;
+              position: absolute;
+              left: 50%;
+              bottom: 0;
+              @media screen and (max-width: 576px){
+                width: 40% !important;
+              }
+            }
+            .ninja-sword{
+              width: 85%;
+              position: absolute;
+              left: 10%;
+              bottom: -2%;
+              @media screen and (max-width: 576px){
+                width: 75% !important;
+              }
+            }
+          }
+          h3{
+            font-size: 25px;
+            color: white;
+            margin-top: 30px;
+            @media screen and (max-width: 576px){
+              margin-top: 15px;
+            }
+          }
+          p{
+            color: #C1C3C7;
+            font-size: 13px;
+            @media screen and (max-width: 576px){
+              margin-bottom: 0;
+            }
+            span{
+              color: #e7e9ed;
+            }
+          }
+        }
+        .col-12{
+          @media screen and (max-width: 576px) {
+            max-width: 90%;
+            margin: 50px auto 20px auto!important;
+          }
+          margin-top: 50px;
+          margin-bottom: 20px;
+          color: #C1C3C7;
+        }
+      }
+    }
+  }
+}
