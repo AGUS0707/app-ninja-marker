@@ -5,7 +5,7 @@ import Map from "./map";
 function Home(props) {
     return (
         <div className="home">
-            {/*<Header/>*/}
+            <Header/>
             <Main/>
         </div>
     );

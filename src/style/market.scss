@@ -37,6 +37,8 @@
             display: flex !important;
             justify-content: space-between !important;
             flex-direction: unset;
+            width: 90%;
+            margin: 0 auto;
           }
           .nav-item{
             @media screen and (max-width: 576px){
@@ -49,7 +51,7 @@
               @media screen and (max-width: 576px){
                 //display: inline !important;
                 font-size: 14px;
-                padding: 0;
+                padding: 8px 18px;
               }
               color: #C1C3C7;
               padding: 8px 18px;
@@ -182,6 +184,7 @@
   }
   .ninja-marker{
     padding-bottom: 15px;
+    padding-top: 50px;
     .container{
       p{
         color:#C1C3C7;

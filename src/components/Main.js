@@ -273,6 +273,110 @@ const Main = () => {
                         </div>
                     </di>
                 </div>
+                <div className="team-bears-media">
+                    <di className="row">
+                        <div className="col-10 offset-1">
+                            <h1>Team of bears</h1>
+                        </div>
+                        <div className="col-md-4">
+
+                            <div className="ninja-circle">
+
+                                <div className="d-flex justify-content-center">
+                                    <img className="kitay-column-top" src="/images/kitay-column-top.png" alt="kitay-column-top"/>
+                                </div>
+
+                                <img className="ninja-left" src="/images/ninja-left.png" alt="ninja-left"/>
+
+                            </div>
+
+                            <h3>Alex</h3>
+                            <p><span>Game Developer |</span> 6 years of experience and scoliosis</p>
+                        </div>
+                        <div className="col-md-4">
+
+                            <div className="ninja-circle">
+
+                                <img className="circle" src="/images/circle.png" alt="circle"/>
+                                <img className="building" src="/images/building.png" alt="building"/>
+                                <img className="ninja-sword" src="/images/ninja-sword.png" alt="ninja-sword"/>
+
+                            </div>
+
+                            <h3>Dude</h3>
+                            <p><span>SMM |</span> He lives with his mother</p>
+                        </div>
+                        <div className="col-md-4">
+
+                            <div className="ninja-circle">
+
+                                <div className="d-flex justify-content-center">
+                                    <img className="ninja-top" src="/images/ninja-top.png" alt="ninja-top"/>
+                                </div>
+
+                                <div className="d-flex justify-content-center">
+                                    <img className="kitay-column-bottom" src="/images/kitay-column-bottom.png" alt="kitay-column-bottom"/>
+                                </div>
+
+                            </div>
+
+                            <h3>NeeOn</h3>
+                            <p><span>Hacker |</span> We all live in the matrix</p>
+
+                        </div>
+                        <div className="col-md-4">
+
+                            <div className="ninja-circle">
+
+                                <div className="d-flex justify-content-center">
+                                    <img className="kitay-column-top" src="/images/kitay-column-top.png" alt="kitay-column-top"/>
+                                </div>
+
+                                <img className="ninja-left" src="/images/ninja-left.png" alt="ninja-left"/>
+
+                            </div>
+
+                            <h3>Alex</h3>
+                            <p><span>Game Developer |</span> 6 years of experience and scoliosis</p>
+                        </div>
+                        <div className="col-md-4">
+
+                            <div className="ninja-circle">
+
+                                <img className="circle" src="/images/circle.png" alt="circle"/>
+                                <img className="building" src="/images/building.png" alt="building"/>
+                                <img className="ninja-sword" src="/images/ninja-sword.png" alt="ninja-sword"/>
+
+                            </div>
+
+                            <h3>Dude</h3>
+                            <p><span>SMM |</span> He lives with his mother</p>
+                        </div>
+                        <div className="col-md-4">
+
+                            <div className="ninja-circle">
+
+                                <div className="d-flex justify-content-center">
+                                    <img className="ninja-top" src="/images/ninja-top.png" alt="ninja-top"/>
+                                </div>
+
+                                <div className="d-flex justify-content-center">
+                                    <img className="kitay-column-bottom" src="/images/kitay-column-bottom.png" alt="kitay-column-bottom"/>
+                                </div>
+
+                            </div>
+
+                            <h3>NeeOn</h3>
+                            <p><span>Hacker |</span> We all live in the matrix</p>
+
+                        </div>
+
+
+                        <div className="col-12">
+                            <p>© 2021 Ninja marker</p>
+                        </div>
+                    </di>
+                </div>
             </div>
 
         </div>

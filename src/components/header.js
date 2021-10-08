@@ -44,6 +44,13 @@ function Header(props) {
                 <img className="ninja-header1" src="/images/ninja-header1.png" alt=""/>
                 <img className="grow" src="/images/grow.png" alt=""/>
             </div>
+
+            <div className="sectionmedia">
+
+                <img className="ninja-media" src="/images/ninja-media.png" alt=""/>
+                <img className="building-media" src="/images/building-media.png" alt=""/>
+
+            </div>
             {/*<div className="section">*/}
             {/*    <div className="section-content">*/}
             {/*       <div className="section-content1">*/}
@@ -69,14 +76,35 @@ function Header(props) {
             {/*</div>*/}
 
             <div className="calendar">
+                <img className="Group1media" src="/images/Group11.png" alt=""/>
                 <div className="container">
                     <div className="row">
+                        <div className="col-sm-6">
+                            <ul className="list-unstyled d-flex">
+                                <li>
+                                    <h5>12</h5>
+                                    <span className="d-block">дней</span>
+                                </li>
+                                <li>
+                                    <h5>09</h5>
+                                    <span className="d-block">часов</span>
+                                </li>
+                                <li>
+                                    <h5>50</h5>
+                                    <span className="d-block">минут</span>
+                                </li>
+                                <li>
+                                    <h5>22</h5>
+                                    <span className="d-block">секунд</span>
+                                </li>
+                            </ul>
+                        </div>
                         <div className="col-sm-6">
                             <p className="text-center">Mint will be opened on</p>
                             <h3 className="text-center">
                                 September 30th
                             </h3>
-                            <button className="mx-auto">Mint son</button>
+                            <button className="mx-auto">MINT SOON</button>
                         </div>
                         <div className="col-sm-6">
                             <ul className="list-unstyled d-flex">
@@ -101,6 +129,8 @@ function Header(props) {
                     </div>
                 </div>
             </div>
+
+
         </div>
     );
 }

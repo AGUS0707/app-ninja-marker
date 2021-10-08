@@ -459,7 +459,7 @@
         }
       }
     }
-    .team-bears{
+    .team-bears, .team-bears-media{
       .row{
         .col-10{
           padding-top: 120px;
@@ -626,6 +626,22 @@
           margin-bottom: 20px;
           color: #C1C3C7;
         }
+      }
+    }
+    .team-bears-media{
+      @media screen and (max-width: 576px){
+        display: block;
+      }
+      @media screen and (min-width: 576px){
+        display: none;
+      }
+    }
+    .team-bears{
+      @media screen and (max-width: 576px){
+        display: none;
+      }
+      @media screen and (min-width: 576px){
+        display: block;
       }
     }
   }
