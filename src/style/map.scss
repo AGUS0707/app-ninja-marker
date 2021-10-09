@@ -10,19 +10,19 @@
       color: #fff;
       margin-bottom: 35px;
       @media screen and (max-width: 576px){
-        text-align: left !important;
+        text-align: center !important;
         font-size: 43px;
       }
     }
     .map-content{
       width: 100%;
-      padding-right: 390px;
+      padding-right: 300px;
       @media screen and (max-width: 576px){
         justify-content: space-between !important;
         padding-right: 0;
       }
       .map-content-left{
-        margin-right: 160px;
+        margin-right: 280px;
         @media screen and (max-width: 576px){
           margin-right: 17px;
         }
